@@ -5,7 +5,7 @@ var cors = require('cors');
 app.use(
     cors({
         credentials: true,
-        origin: 'https://soft-sec-basics.herokuapp.com/
+        origin: 'https://soft-sec-basics.herokuapp.com/'
     })
 );
 app.options('*', cors());
