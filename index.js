@@ -5,7 +5,7 @@ var cors = require('cors');
 app.use(
     cors({
         credentials: true,
-        origin: 'https://soft-sec-basics.herokuapp.com/'
+        origin: 'https://62152a44cfcf7c1a8c4207bd--elegant-fermi-56e22f.netlify.app/'
     })
 );
 app.options('*', cors());
