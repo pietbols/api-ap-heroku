@@ -5,7 +5,7 @@ var cors = require('cors');
 app.use(
     cors({
         credentials: true,
-        origin: 'https://websec.herokuapp.com'
+        origin: 'https://api-websec.herokuapp.com'
     })
 );
 app.options('*', cors());
